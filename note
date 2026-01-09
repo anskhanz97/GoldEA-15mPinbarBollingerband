@@ -1,0 +1,34 @@
+@d:\GoldEA\GoldEA-15mPinbarBollinger\ 
+
+all code in these files is based on my previous Gold EA which was based on H1. go deeply through all the code... it was a well designed modular EA i am sure we can use most functionalities from it and change it and manage it  according to our new strategy. 
+
+As i want to use 2 timeframes in this one, changing from jsut 1H to H1 + 15m.
+Lets discuss one timeframe first.  same should happen on both TF. we can use the naming convention from our previous data "Engulf_17012026-1600-B" to our benefit and change to differentiate between a setup formed 15 min  or H1 like this: 
+"PinbarBB-17012026-1600-15m" and  "PinbarBB-17012026-1600-H1"
+
+We will use the bollingerband indicator and 15min + H1 pinbar candle... 
+
+The strategy revolves around 15min or H1 pinbar candle, 
+the setting of Bollingerband is supposed to be (50,2) 
+
+nomatter the color, no matter the upperaband or lowerband or middle band .
+
+this candle supposedly a pinbar, a candle whose wick is 2x or even bigger than that of the body of the candle. if this candle is tapping into an FVg or Sweeps liquidity of previous candles. EVEN better, it increases the strenght of the setup....
+
+the compulsory condition of this candle is that its wick should be on the other side bollinger band while the candle closure should be on the other side. nomatter the color, no matter the upperaband or lowerband or middle band . 
+
+For example, lets discuss (two) Bullish Scenarios, a candle makes a Wick on the bottom/outside the Lower band and closes candle insdie the lower band we go long. on market order.
+
+or 
+
+a candle makes a Wick on the bottom/outside the Middle band and closes candle insdie the middle band we go long. on market order.
+
+
+now its not necessacry that the whole wick should be on the other side of the band, but it can be a little outside the band or even just a tap on the band but the real thing is the size of wick 2x or even more greater than the body of candle. 
+
+Similarly for 2 bearish scenarios, a candle makes a Wick on the upside/outside the Upper band and closes candle insdie the upper band we go Short on market order.
+
+or 
+
+a candle makes a Wick on the upside/outside of the Middle band and closes candle insdie/below the middle band we go short on market order. 
+
